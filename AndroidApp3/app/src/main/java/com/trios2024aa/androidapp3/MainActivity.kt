@@ -39,7 +39,7 @@ class MainActivity : ComponentActivity() {
                 Scaffold(
                     topBar = {
                         CenterAlignedTopAppBar(
-                            title = { Text("App Name") }, // Replace with your app's name
+                            title = { Text("Treasure Hunt") }, // Replace with your app's name
                             colors = TopAppBarDefaults.topAppBarColors(
                                 containerColor = MaterialTheme.colorScheme.primary, // Set the same color as the button
                                 titleContentColor = Color.White // Set the content color for the app bar (e.g., text color)
